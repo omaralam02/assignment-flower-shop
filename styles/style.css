@@ -1,15 +1,118 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Shared Styles */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
 
+section {
+    margin: 178px auto;
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.section-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 /* Header Styles */
+.header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 180px 0;
+}
 
+.header-detail {
+    padding-top: 190px;
+}
 
-/* Main Body Styles */
+.header-title {
+    color: #272727;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 32px;
+}
 
+header .header-img {
+    width: 635px;
+    height: 800px;
+}
+
+.header-detail .header-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+/* Our Featured Flowers */
+.our-flower-desc {
+    padding: 0 600px;
+    margin-bottom: 30px;
+}
+
+.display-flower {
+    display: flex;
+    gap: 24px;
+    margin: 0 228px;
+}
+
+.common-flower-bg {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.pink-bg {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.display-flower-pink {
+    width: 310px;
+    height: 428px;
+    padding-top: 110px;
+}
+
+.paste-bg {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.display-flower-tree {
+    width: 370px;
+    height: 370px;
+    padding-top: 100px;
+}
+
+.green-bg {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.display-flower-yellow {
+    width: 314px;
+    height: 471px;
+    padding-top: 67px;
+}
 
 /* Footer Styles */
