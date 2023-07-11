@@ -75,6 +75,7 @@ header .header-img {
 /* Our Featured Flowers */
 .our-flower-desc {
     padding: 0 600px;
+    padding-bottom: 45px;
 }
 
 .display-flower {
@@ -138,6 +139,18 @@ header .header-img {
     text-decoration: underline;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* Bonus Section */
+.bonus-section video {
+    border-radius: 10px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.bonus-section > h3 {
+    padding: 0 550px;
+    padding-bottom: 30px;
 }
 
 /* Hot Deal Section */
