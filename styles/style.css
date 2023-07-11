@@ -43,7 +43,7 @@ section {
 }
 
 .header-detail {
-    padding-top: 190px;
+    padding: 190px 0 167px;
 }
 
 .header-title {
@@ -57,6 +57,7 @@ section {
 header .header-img {
     width: 635px;
     height: 800px;
+    padding-top: 167px;
 }
 
 .header-detail .header-desc {
@@ -114,5 +115,29 @@ header .header-img {
     height: 471px;
     padding-top: 67px;
 }
+
+.display-flower-pink-desc {
+    padding-top: 20px;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.display-flower-tree-desc {
+    padding-top: 85px;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.display-flower-yellow-desc {
+    padding-top: 20px;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Hot Deal Section */
+
 
 /* Footer Styles */
