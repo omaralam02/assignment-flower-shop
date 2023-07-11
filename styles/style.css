@@ -155,4 +155,26 @@ header .header-img {
 .showcase-img img {
 margin: 10px;
 }
+
+/* Get Deals Section Styles */
+.get-deals {
+    background: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 0;
+    margin-left: 285px;
+    margin-right: 285px;
+    border-radius: 8px;
+}
+input {
+    width: 700px;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px;
+    border: #272727 3px solid;
+}
+
 /* Footer Styles */
