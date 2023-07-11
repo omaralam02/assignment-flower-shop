@@ -180,6 +180,10 @@ input {
     border: #272727 3px solid;
 }
 
+#form-email {
+    margin-right: 5px;
+}
+
 /* Footer Styles */
 .footer {
     background-color: #111010;
@@ -193,7 +197,8 @@ input {
 }
 
 .footer-desc {
-    color: rgba(255, 255, 255, 0.9);   
+    color: rgba(255, 255, 255, 0.9);
+    padding: 0 550px 25px;
 }
 
 .copy-right {
